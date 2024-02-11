@@ -19,7 +19,6 @@ export default function Main() {
         <div>
             <Image src='/skate.jpg' alt="Breakfast" width={600} height={500}/>
         </div>
-        
     </div>
   )
 }
