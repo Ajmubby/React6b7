@@ -72,7 +72,7 @@ export default function FruitCart({fruits}) {
               
             )}
             {index == 16 &&(
-              <Image src={'/Apple.jpeg' } alt='apples' height={300} width={400} className='w-50 h-40 hover:opacity-[0.9]'/>
+              <Image src={'/apples.jpeg' } alt='pples' height={300} width={400} className='w-50 h-40 hover:opacity-[0.9]'/>
               
             )}
             {index == 17 &&(
@@ -84,6 +84,7 @@ export default function FruitCart({fruits}) {
             <h2 className='font-bold capitalize mt-1'>{fruit.name}</h2>
             <p className='text-slate-500 text-sm mt-1 line-through'>${fruit.oldPrice}</p>
             <p className='font-mono text-sm mt-1'>${fruit.price}</p>
+            
         </section>
     ))
   return (
