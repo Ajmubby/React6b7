@@ -80,11 +80,10 @@ export default function FruitCart({fruits}) {
               
             )}
             <p className='border-solid w-[100px] rounded-md mt-2 px-1 font-light bg-stone-400 hover:bg-stone-200'>{fruit.store}</p>
-            <h2 className='font-bold capitalize mt-1'>{fruit.name}</h2>
-            <p className='text-slate-500 text-sm mt-1'>${fruit.oldPrice}<span className='text-orange-300'>  -40%</span> </p>
-            <p className='font-mono text-sm mt-1'>${fruit.price}</p>
             </Link>
-            
+            <h2 className='font-bold capitalize mt-1'>{fruit.name}</h2>
+            <p className='text-slate-500 text-sm mt-1 line-through'>${fruit.oldPrice}</p>
+            <p className='font-mono text-sm mt-1'>${fruit.price}</p>
         </section>
     ))
   return (

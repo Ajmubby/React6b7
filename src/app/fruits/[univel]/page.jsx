@@ -5,7 +5,7 @@ export default function page({params}) {
     const fruitCard = fruits.find(fruit => fruit.name.split('').join('-') == params.univel)
 
   return (
-    <div className='bg-zinc-200 h-[100vh] px-5'>
+    <div className='bg-zinc-200 h-[100vh] px-5 pt-3'>
         
         <h2 className=' text-center border-b-2 border-stone-800 capitalize mx-20'>
             <span className='font-bold'>Name: </span>{fruitCard.name}

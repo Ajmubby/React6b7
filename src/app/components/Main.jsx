@@ -6,7 +6,7 @@ const greetMe = "Hello Everyone"
 export default function Main() {
     
   return (
-    <div className="grid grid-cols-3 mt-10">
+    <div className="grid grid-cols-4 mt-10">
         <div>
             <Image src='/sea.jpg' alt="Breakfast" width={600} height={700}/>
         </div>
